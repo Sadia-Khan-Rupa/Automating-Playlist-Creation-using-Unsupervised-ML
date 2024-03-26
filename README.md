@@ -1,36 +1,27 @@
-# WBS Data Science Bootcamp Portfolio
+# Unsupervised ML: Clustering Songs
 
-![cover_picture](<0. Hangman game with Python/cover_pciture.webp>)
 
-## Primer: Hangman
+## K Means Clustering
 
-At the end of the two-weeks primer course on SQL, Tableau and Python, everybody builds a simple text-based Hangman.
+
+### Case Study
+Welcome to Moosic!
+
+Moosic is a little start-up that creates playlists curated by music experts and specialists in old and new trends. Users can subscribe to their website and listen to these playlists through their preferred Music App (be it Spotify, Apple Music, Youtube Music…). They love the fact that their playlists have a personal touch, and that each playlist encapsulates a certain “mood” or “style”.
+
+But business is scaling up fast and the music experts are slow in creating new playlists. They have hired you with a clear mission: use Data Science to add a degree of automatisation to the creation of playlists.
+
+They want you to use a dataset that has been collected from the Spotify API and contains the audio features (tempo, energy, danceability…) for a few thousand songs and use a basic clustering algorithm such as K-Means to divide the dataset into a few clusters (which will become playlists).
+
+Some of the members of the team are skeptical about these audio features being able to capture the actual “mood” of a song: they feel this is something very subjective that only a human can judge. Others are hopeful that a solution that incorporates Data Science can be even better and create connections between songs that might feel unexpected at first glance, but that ultimately make sense.
+
+Either way, in this first iteration of the project they expect you to have an initial prototype. No pressure: the playlists don’t have to be perfect, and the company understands that they are at the beginning of a lengthy process. Between you and the musical experts, a couple of assessments will have to be made:
+
+#### Are Spotify’s audio features able to identify “similar songs”, as defined by humanly detectable criteria? When you listen to two rock ballads, two operas or two drum & bass songs, you identify them as similar songs. Are these similarities detectable using the audio features from Spotify?
+#### Is K-Means a good method to create playlists? Would you stick with this algorithm moving forward, or explore other methods to create playlists?
+By the end of this project, you are expected to present your clusters to the team and discuss these questions with them.
+
+
 
 ![image](https://github.com/lisardo-iniesta/datascience-bootcamp/assets/126266573/26de6cc6-dfc7-4e5d-bc03-3b6b4a23574d)
-
-## Chapter 1: Eniac expansion from Spain to Brazil
-
-In this [case study](<1. Data Driven Businesses with SQL & Tableau>), the company Eniac wants to expand
-its business to Brazil and evaluates the potential after-sales fulfillment partner
-Magist for its suitability.
-
-
-![scatter plot of all sellers with the x-axis saying what fraction of products was sold in tech categories and the y-axis depicting the average monthly sales](<1. Data Driven Businesses with SQL & Tableau/images/Sellers_ Monthly Sales and Tech Affinity.png>)
-
-## Chapter 2: Introduction to pandas
-
-As second basic data-handling system after SQL, we were introduced to the Python
-[pandas](https://pandas.pydata.org/) library.
-Read about our challenges [here](<2. Pandas>)!
-
-## Chapter 3: Data Cleaning and Storytelling
-*coming soon*
-
-## Chapter 4: A/B Testing
-*coming soon*
-
-## Chapter 5: Data Pipelines on the Cloud
-
-In this two-week project, we learned and exercised ETL data-engineering skills, i.e. extracting, transforming and loading data into storage for comprehensive analysis. We scraped the web, used public APIs, transformed and augmented the data and stored it in an SQL database. The finished ETL process was then wrapped into a Google cloud function for automatic execution.
-
 
