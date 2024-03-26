@@ -41,5 +41,27 @@ A comparison is made to highlight the impact of changing the random seed on the 
 The notebook concludes with a recommendation to familiarize oneself with the scikit-learn documentation, particularly focusing on the KMeans function used in the analysis.
 Overall, the notebook provides a hands-on exploration of a small dataset using pandas for data manipulation, scikit-learn for clustering analysis, and encourages subjective interpretation of the results.
 
+## project Notebook: Challenege_2
+This Python notebook explores the effects of various scaling and transforming techniques on a dataset containing Spotify song attributes. Here's a summary of the tasks performed:
+
+#### Data Preparation:
+The notebook begins by importing the Spotify dataset and cleaning column names.
+Unnecessary columns such as 'id', 'html', 'duration_ms', 'time_signature', 'song_name', 'tempo', and 'loudness' are dropped.
+The dataset is transformed into a distance matrix using pairwise distance calculation.
+#### Scalers - Changing the Range, Not the Distribution:
+five scalers are applied to the dataset: MinMaxScaler, StandardScaler, RobustScaler, and QuantileTransformer, Power transformer
+Each scaler is explained along with its mathematical formula.
+The effect of each scaler on the dataset is visualized using histograms and heatmaps.
+Notable observations include the range adjustment and centering of data.
+#### Transformers - Changing the Range and Distribution:
+Two transformers are applied: QuantileTransformer and PowerTransformer.
+QuantileTransformer transforms data according to quantiles, while PowerTransformer reshapes data to resemble a normal distribution.
+Histograms and heatmaps are used to visualize the effects of these transformers on the dataset.
+#### Comparison:
+All five techniques (MinMaxScaler, StandardScaler, RobustScaler, QuantileTransformer, PowerTransformer) are compared based on their impact on the loudness attribute.
+Histograms and heatmaps are presented side by side to highlight the differences between the original and transformed datasets.
+The notebook provides a comprehensive exploration of scaling and transforming techniques, emphasizing their impact on data distribution and range. It also offers insights into selecting appropriate techniques based on the characteristics of the dataset.
+
+
 ![image](https://github.com/lisardo-iniesta/datascience-bootcamp/assets/126266573/26de6cc6-dfc7-4e5d-bc03-3b6b4a23574d)
 
