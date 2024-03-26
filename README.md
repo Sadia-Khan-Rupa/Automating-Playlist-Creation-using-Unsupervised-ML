@@ -21,7 +21,25 @@ Either way, in this first iteration of the project they expect you to have an in
 #### Is K-Means a good method to create playlists? Would you stick with this algorithm moving forward, or explore other methods to create playlists?
 By the end of this project, you are expected to present your clusters to the team and discuss these questions with them.
 
+## project Notebook: Challenege_1
 
+This Python notebook focuses on analyzing a dataset containing information about 10 songs from Spotify. Here's a summary of the main sections and tasks covered:
+
+#### Explore the Dataset:
+The notebook begins by importing the 10 songs dataset and exploring its structure using pandas.
+Column names are cleaned to remove spaces for ease of access.
+#### Analyze Danceability and Liveness:
+The top 3 most danceable songs and songs with the highest liveness scores are identified and discussed.
+The notebook encourages subjective analysis by asking whether the liveliness and danceability scores align with personal perceptions of the songs.
+#### Use KMeans for Clustering:
+The KMeans clustering algorithm is applied to the dataset with different configurations:
+Varying the number of clusters (e.g., 3, 4).
+Experimenting with different random seeds (e.g., None, 0, 42).
+Clustering results are examined, and it's noted that the assignment of songs to clusters can change based on the random seed used.
+A comparison is made to highlight the impact of changing the random seed on the clustering results.
+#### Familiarize with scikit-learn Documentation:
+The notebook concludes with a recommendation to familiarize oneself with the scikit-learn documentation, particularly focusing on the KMeans function used in the analysis.
+Overall, the notebook provides a hands-on exploration of a small dataset using pandas for data manipulation, scikit-learn for clustering analysis, and encourages subjective interpretation of the results.
 
 ![image](https://github.com/lisardo-iniesta/datascience-bootcamp/assets/126266573/26de6cc6-dfc7-4e5d-bc03-3b6b4a23574d)
 
