@@ -72,3 +72,7 @@ Navigate to the desired notebook (e.g., Challenge_2.ipynb, Challenge_3.ipynb) an
 
 Feel free to submit pull requests to improve the analyses or add new challenges.
 
+## 📞 **Contact**
+
+Email: khanrupasadia@gmail.com
+LinkedIn: [Sadia LinkedIn](https://www.linkedin.com/in/sadia-khan-rupa/)
