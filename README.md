@@ -52,3 +52,17 @@ This notebook focuses on analyzing clusters obtained through machine learning te
 - **Scalers Comparison**: Tests the influence of scaling techniques on preprocessing.
 
 ---
+
+## **Getting Started**
+
+### Clone this repository:
+git clone https://github.com/Sadia-Khan-Rupa/Automating-Playlist-Creation-using-Unsupervised-ML.git
+cd Automating-Playlist-Creation-using-Unsupervised-ML
+
+### Install dependencies:
+Ensure you have Python 3 and Jupyter Notebook installed. Use the following command to install the required libraries:
+pip install -r requirements.txt
+
+### Open the notebooks in Jupyter Notebook:
+jupyter notebook
+Navigate to the desired notebook (e.g., Challenge_2.ipynb, Challenge_3.ipynb) and run the code cells to explore the analyses.
