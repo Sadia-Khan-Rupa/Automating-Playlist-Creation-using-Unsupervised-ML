@@ -1,67 +1,68 @@
-# Unsupervised ML: Clustering Songs
 
+# Spotify Data Science Challenges
 
-## K Means Clustering
+This repository contains solutions and analyses related to various data science challenges focused on the Spotify dataset. Each challenge demonstrates a specific machine learning or data science technique, including clustering, dimensionality reduction, and feature scaling.
 
+---
 
-### Case Study
-Welcome to Moosic!
+## Project Structure
 
-Moosic is a little start-up that creates playlists curated by music experts and specialists in old and new trends. Users can subscribe to their website and listen to these playlists through their preferred Music App (be it Spotify, Apple Music, Youtube Music…). They love the fact that their playlists have a personal touch, and that each playlist encapsulates a certain “mood” or “style”.
+### 1. Naming the Clusters
+File: `Cluster_Naming.ipynb`  
+This notebook focuses on analyzing clusters obtained through machine learning techniques, specifically exploring how to interpret and name clusters effectively.
 
-But business is scaling up fast and the music experts are slow in creating new playlists. They have hired you with a clear mission: use Data Science to add a degree of automatisation to the creation of playlists.
+### 2. Challenge 5: Principal Component Analysis (PCA)
+File: `Challenge_5.ipynb`  
+This notebook applies PCA to reduce noise and dimensionality in the Spotify dataset. By identifying the most critical features, the process aids in efficient clustering of songs. The analysis explores clusters based on features such as genre, tempo, and mood.
 
-They want you to use a dataset that has been collected from the Spotify API and contains the audio features (tempo, energy, danceability…) for a few thousand songs and use a basic clustering algorithm such as K-Means to divide the dataset into a few clusters (which will become playlists).
+### 3. Challenge 3: Clustering with K-Means
+File: `Challenge_3.ipynb`  
+This notebook dives into clustering the Spotify dataset using K-Means. Key highlights include:
+- Adding cluster assignments to the dataset.
+- Performing centroid analysis to interpret clusters.
+- Visualizing clusters using radar charts for deeper insights.
 
-Some of the members of the team are skeptical about these audio features being able to capture the actual “mood” of a song: they feel this is something very subjective that only a human can judge. Others are hopeful that a solution that incorporates Data Science can be even better and create connections between songs that might feel unexpected at first glance, but that ultimately make sense.
+### 4. Challenge 2: Scalers and Transformers
+File: `Challeneg 2.ipynb`  
+This notebook experiments with different scalers and transformers on the Spotify dataset. The goal is to compare their impacts on data preprocessing and identify which scaling techniques yield the best results.
 
-Either way, in this first iteration of the project they expect you to have an initial prototype. No pressure: the playlists don’t have to be perfect, and the company understands that they are at the beginning of a lengthy process. Between you and the musical experts, a couple of assessments will have to be made:
+---
 
-#### Are Spotify’s audio features able to identify “similar songs”, as defined by humanly detectable criteria? When you listen to two rock ballads, two operas or two drum & bass songs, you identify them as similar songs. Are these similarities detectable using the audio features from Spotify?
-#### Is K-Means a good method to create playlists? Would you stick with this algorithm moving forward, or explore other methods to create playlists?
-By the end of this project, you are expected to present your clusters to the team and discuss these questions with them.
+## Key Features
+- **Cluster Analysis**: Identifies and interprets meaningful groups in the data.
+- **Dimensionality Reduction**: Utilizes PCA for noise reduction and efficiency.
+- **Visualization**: Employs charts to interpret complex data relationships.
+- **Scalers Comparison**: Tests the influence of scaling techniques on preprocessing.
 
-## project Notebook: Challenege_1
+---
 
-This Python notebook focuses on analyzing a dataset containing information about 10 songs from Spotify. Here's a summary of the main sections and tasks covered:
+## Getting Started
 
-#### Explore the Dataset:
-The notebook begins by importing the 10 songs dataset and exploring its structure using pandas.
-Column names are cleaned to remove spaces for ease of access.
-#### Analyze Danceability and Liveness:
-The top 3 most danceable songs and songs with the highest liveness scores are identified and discussed.
-The notebook encourages subjective analysis by asking whether the liveliness and danceability scores align with personal perceptions of the songs.
-#### Use KMeans for Clustering:
-The KMeans clustering algorithm is applied to the dataset with different configurations:
-Varying the number of clusters (e.g., 3, 4).
-Experimenting with different random seeds (e.g., None, 0, 42).
-Clustering results are examined, and it's noted that the assignment of songs to clusters can change based on the random seed used.
-A comparison is made to highlight the impact of changing the random seed on the clustering results.
-#### Familiarize with scikit-learn Documentation:
-The notebook concludes with a recommendation to familiarize oneself with the scikit-learn documentation, particularly focusing on the KMeans function used in the analysis.
-Overall, the notebook provides a hands-on exploration of a small dataset using pandas for data manipulation, scikit-learn for clustering analysis, and encourages subjective interpretation of the results.
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/yourusername/spotify-data-challenges.git
+   cd spotify-data-challenges
+   ```
+2. Install dependencies:  
+   Ensure you have Python 3 and Jupyter Notebook installed. Use the following command to install required libraries:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the notebooks in Jupyter Notebook:  
+   ```bash
+   jupyter notebook
+   ```
 
-## project Notebook: Challenege_2
-This Python notebook explores the effects of various scaling and transforming techniques on a dataset containing Spotify song attributes. Here's a summary of the tasks performed:
+---
 
-#### Data Preparation:
-The notebook begins by importing the Spotify dataset and cleaning column names.
-Unnecessary columns such as 'id', 'html', 'duration_ms', 'time_signature', 'song_name', 'tempo', and 'loudness' are dropped.
-The dataset is transformed into a distance matrix using pairwise distance calculation.
-#### Scalers - Changing the Range, Not the Distribution:
-five scalers are applied to the dataset: MinMaxScaler, StandardScaler, RobustScaler, and QuantileTransformer, Power transformer
-Each scaler is explained along with its mathematical formula.
-The effect of each scaler on the dataset is visualized using histograms and heatmaps.
-Notable observations include the range adjustment and centering of data.
-#### Transformers - Changing the Range and Distribution:
-Two transformers are applied: QuantileTransformer and PowerTransformer.
-QuantileTransformer transforms data according to quantiles, while PowerTransformer reshapes data to resemble a normal distribution.
-Histograms and heatmaps are used to visualize the effects of these transformers on the dataset.
-#### Comparison:
-All five techniques (MinMaxScaler, StandardScaler, RobustScaler, QuantileTransformer, PowerTransformer) are compared based on their impact on the loudness attribute.
-Histograms and heatmaps are presented side by side to highlight the differences between the original and transformed datasets.
-The notebook provides a comprehensive exploration of scaling and transforming techniques, emphasizing their impact on data distribution and range. It also offers insights into selecting appropriate techniques based on the characteristics of the dataset.
+## Contributing
+Feel free to submit pull requests to improve the analyses or add new challenges.
 
+---
 
-![image](https://github.com/lisardo-iniesta/datascience-bootcamp/assets/126266573/26de6cc6-dfc7-4e5d-bc03-3b6b4a23574d)
+## License
+This project is licensed under the MIT License.
 
+---
+
+Happy analyzing! 🎧
