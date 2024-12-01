@@ -20,4 +20,35 @@ Analyzing Spotify data through these challenges is not just an academic exercise
 *Data Insights*: Visualization and analysis can provide actionable insights to artists, producers, and marketers about what types of music resonate with different audiences.
 This project bridges the gap between theoretical learning and practical application, making it an invaluable tool for aspiring data scientists.
 
+---
 
+## Project Structure
+
+### 1. Challenge 2: Scalers and Transformers
+File: `Challeneg 2.ipynb`  
+This notebook experiments with different scalers and transformers on the Spotify dataset. The goal is to compare their impacts on data preprocessing and identify which scaling techniques yield the best results.
+
+### 2. Challenge 3: Clustering with K-Means
+File: `Challenge_3.ipynb`  
+This notebook dives into clustering the Spotify dataset using K-Means. Key highlights include:
+- Adding cluster assignments to the dataset.
+- Performing centroid analysis to interpret clusters.
+- Visualizing clusters using radar charts for deeper insights.
+
+### 3. Challenge 5: Principal Component Analysis (PCA)
+File: `Challenge_5.ipynb`  
+This notebook applies PCA to reduce noise and dimensionality in the Spotify dataset. By identifying the most critical features, the process aids in efficient clustering of songs. The analysis explores clusters based on features such as genre, tempo, and mood.
+
+### 4. Naming the Clusters
+File: `Cluster_Naming.ipynb`  
+This notebook focuses on analyzing clusters obtained through machine learning techniques, specifically exploring how to interpret and name clusters effectively.
+
+---
+
+## Key Features
+- **Cluster Analysis**: Identifies and interprets meaningful groups in the data.
+- **Dimensionality Reduction**: Utilizes PCA for noise reduction and efficiency.
+- **Visualization**: Employs charts to interpret complex data relationships.
+- **Scalers Comparison**: Tests the influence of scaling techniques on preprocessing.
+
+---
