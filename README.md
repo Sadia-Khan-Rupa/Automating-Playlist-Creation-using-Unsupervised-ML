@@ -4,7 +4,7 @@ This repository is dedicated to showcasing practical applications of data scienc
 The Spotify dataset, known for its diverse attributes like tempo, loudness, danceability, and energy, provides an excellent opportunity to delve into real-world problems in the realm of music data analysis. These challenges aim to replicate scenarios encountered in professional data science projects, making this repository a great resource for learning and honing analytical and coding skills.
 
 ## Table of Contents
-- [Why This Project Matters](#getting-started)
+- [Why This Project Matters](#why-this-project-matters)
 - [Project Structure](#features)
 - [Key Features](#installation)
 - [Getting Started](#usage)
