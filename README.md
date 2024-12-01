@@ -4,12 +4,11 @@ This repository is dedicated to showcasing practical applications of data scienc
 The Spotify dataset, known for its diverse attributes like tempo, loudness, danceability, and energy, provides an excellent opportunity to delve into real-world problems in the realm of music data analysis. These challenges aim to replicate scenarios encountered in professional data science projects, making this repository a great resource for learning and honing analytical and coding skills.
 
 ## Table of Contents
-- [Getting Started](#getting-started)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Why This Project Matters](#getting-started)
+- [Project Structure](#features)
+- [Key Features](#installation)
+- [Getting Started](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## **Why This Project Matters**
 
@@ -66,3 +65,10 @@ pip install -r requirements.txt
 ### Open the notebooks in Jupyter Notebook:
 jupyter notebook
 Navigate to the desired notebook (e.g., Challenge_2.ipynb, Challenge_3.ipynb) and run the code cells to explore the analyses.
+
+--- 
+
+## **Contributing**
+
+Feel free to submit pull requests to improve the analyses or add new challenges.
+
